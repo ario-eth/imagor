@@ -2,12 +2,13 @@ package vips
 
 import (
 	"context"
-	"github.com/cshum/imagor"
-	"go.uber.org/zap"
 	"math"
 	"runtime"
 	"strings"
 	"sync"
+
+	"github.com/cshum/imagor"
+	"go.uber.org/zap"
 )
 
 // FilterFunc filter handler function
@@ -342,7 +343,7 @@ func (v *Processor) CheckResolution(img *Image, err error) (*Image, error) {
 		return img, err
 	}
 	if img.Width() > v.MaxWidth || img.PageHeight() > v.MaxHeight ||
-		(img.Width()*img.Height()) > v.MaxResolution {
+		(img.Width()*img.PageHeight()) > v.MaxResolution {
 		img.Close()
 		return nil, imagor.ErrMaxResolutionExceeded
 	}
