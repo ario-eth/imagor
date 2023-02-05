@@ -57,4 +57,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/cshum/imagor => github.com/ario-eth/imagor v1.3.7
+replace github.com/cshum/imagor => github.com/ario-eth/imagor v1.3.8
