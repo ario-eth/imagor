@@ -1,7 +1,7 @@
 package imagor
 
 import (
-	"github.com/cshum/imagor/imagorpath"
+	"github.com/ario-eth/imagor/imagorpath"
 	"go.uber.org/zap"
 	"time"
 )

@@ -4,8 +4,8 @@ import (
 	"cloud.google.com/go/storage"
 	"context"
 	"flag"
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/storage/gcloudstorage"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/storage/gcloudstorage"
 	"go.uber.org/zap"
 )
 

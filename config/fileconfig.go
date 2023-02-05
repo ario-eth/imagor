@@ -2,8 +2,8 @@ package config
 
 import (
 	"flag"
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/storage/filestorage"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/storage/filestorage"
 	"go.uber.org/zap"
 )
 

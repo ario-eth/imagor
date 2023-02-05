@@ -1,10 +1,10 @@
 package config
 
 import (
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/imagorpath"
-	"github.com/cshum/imagor/loader/httploader"
-	"github.com/cshum/imagor/storage/filestorage"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/imagorpath"
+	"github.com/ario-eth/imagor/loader/httploader"
+	"github.com/ario-eth/imagor/storage/filestorage"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/cshum/imagor"
+	"github.com/ario-eth/imagor"
 )
 
 // HTTPLoader HTTP Loader implements imagor.Loader interface

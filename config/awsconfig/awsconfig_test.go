@@ -1,9 +1,9 @@
 package awsconfig
 
 import (
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/config"
-	"github.com/cshum/imagor/storage/s3storage"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/config"
+	"github.com/ario-eth/imagor/storage/s3storage"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

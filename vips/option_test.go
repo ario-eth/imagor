@@ -2,7 +2,7 @@ package vips
 
 import (
 	"context"
-	"github.com/cshum/imagor"
+	"github.com/ario-eth/imagor"
 	"github.com/stretchr/testify/assert"
 	"runtime"
 	"testing"

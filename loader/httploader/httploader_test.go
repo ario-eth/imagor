@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cshum/imagor"
+	"github.com/ario-eth/imagor"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -227,7 +227,7 @@ func TestBlockNetworks(t *testing.T) {
 
 		for _, v := range []string{"::1/128", "127.0.0.0/8"} {
 			_, network, err := net.ParseCIDR(v)
-			assert.NoError(t,err)
+			assert.NoError(t, err)
 			networks = append(networks, network)
 		}
 		loader := New(

@@ -2,7 +2,7 @@ package config
 
 import (
 	"flag"
-	"github.com/cshum/imagor"
+	"github.com/ario-eth/imagor"
 	"go.uber.org/zap"
 )
 

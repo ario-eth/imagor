@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cshum/imagor/vips"
+	"github.com/ario-eth/imagor/vips"
 	"net/http"
 	"os"
 )

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/cshum/imagor/imagorpath"
+	"github.com/ario-eth/imagor/imagorpath"
 	"go.uber.org/zap"
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/sync/singleflight"
@@ -671,7 +671,7 @@ var landing = fmt.Sprintf(`
 	<head><title>imagor v%s</title></head>
 	<body>
 		<h1>imagor v%s</h1>
-		<p><a href="https://github.com/cshum/imagor" target="_blank">https://github.com/cshum/imagor</a></p>
+		<p><a href="https://github.com/ario-eth/imagor" target="_blank">https://github.com/ario-eth/imagor</a></p>
 	</body>
 </html>
 `, Version, Version)

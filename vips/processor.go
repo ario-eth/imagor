@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cshum/imagor"
+	"github.com/ario-eth/imagor"
 	"go.uber.org/zap"
 )
 

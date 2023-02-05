@@ -3,8 +3,8 @@ package vips
 import (
 	"context"
 	"fmt"
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/imagorpath"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/imagorpath"
 	"golang.org/x/image/colornames"
 	"image/color"
 	"math"

@@ -4,7 +4,7 @@ package vips
 import "C"
 import (
 	"fmt"
-	"github.com/cshum/imagor/vips/pointer"
+	"github.com/ario-eth/imagor/vips/pointer"
 	"io"
 	"sync"
 	"unsafe"

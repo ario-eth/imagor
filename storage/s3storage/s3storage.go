@@ -2,13 +2,13 @@ package s3storage
 
 import (
 	"context"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/imagorpath"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/imagorpath"
 	"io"
 	"net/http"
 	"path/filepath"

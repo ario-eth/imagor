@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/cshum/imagor/imagorpath"
+	"github.com/ario-eth/imagor/imagorpath"
 	"net/http"
 	"regexp"
 	"strconv"

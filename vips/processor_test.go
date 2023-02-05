@@ -3,9 +3,9 @@ package vips
 import (
 	"context"
 	"fmt"
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/imagorpath"
-	"github.com/cshum/imagor/storage/filestorage"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/imagorpath"
+	"github.com/ario-eth/imagor/storage/filestorage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"

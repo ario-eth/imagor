@@ -2,11 +2,11 @@ package awsconfig
 
 import (
 	"flag"
+	"github.com/ario-eth/imagor"
+	"github.com/ario-eth/imagor/storage/s3storage"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/cshum/imagor"
-	"github.com/cshum/imagor/storage/s3storage"
 	"go.uber.org/zap"
 )
 
