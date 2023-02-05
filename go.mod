@@ -1,4 +1,4 @@
-module github.com/cshum/imagor
+module github.com/ario-eth/imagor
 
 go 1.18
 
